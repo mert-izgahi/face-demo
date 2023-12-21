@@ -1,0 +1,14 @@
+.image {
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.image:hover {
+  border: 3px solid var(--mantine-color-red-6);
+}
+
+.selected-image {
+  cursor: pointer;
+  border: 3px solid var(--mantine-color-green-6);
+}
